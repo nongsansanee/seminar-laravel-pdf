@@ -27,10 +27,6 @@ return new class extends Migration
             $table->integer('task_id_main');
             $table->integer('task_id_share');
             $table->float('task_weight');
-            
-            // $table->foreign('task_id_main')->references('id')->on('tasks');
-            // $table->foreign('task_id_share')->references('id')->on('tasks');
-         
             $table->timestamps();
         });
     }
